@@ -73,3 +73,121 @@
     - 晶体管计算机 20世纪50年代后期
     - 集成电路计算机 1965
     - 超大规模集成电路 20世纪70年代早期  到如今
+
+
+C程序设计语言呢是一个结构化程序设计语言。（待展开）
+
+设想我们设计一门语言
+
+我们需要设计单词
+
+给计算机可以认识的单词就保留30个左右比如int，if，goto，static，void等
+
+然后通过少量的保留词来定义更多的单词。
+
+还要定义数据类型和操作符号 
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d83f99f6-ae2c-46dc-8169-5dafcfa17034/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d83f99f6-ae2c-46dc-8169-5dafcfa17034/Untitled.png)
+
+我们还要设计句式
+
+其实就三种句式
+
+- 顺序语句
+- 分支语句
+- 循环语句
+
+然后有个1966年 C.Bohm 有个paper证明，这三个句式足够了。
+
+概括一下
+
+我们的语言 能用的
+
+只有 30 多个关键字
+
+10几个数据类型
+
+30几个运算符号
+
+3种句式
+
+从现实问题懂啊计算机程序
+
+计算机其实很笨，它不能帮你想出解决问题的办法
+
+它只是按照你的话去执行
+
+问题→可行解决方案（考虑到计算机的额外优越性比如计算速度快等）→ 程序
+
+        思考                                                                                                描述
+
+描述时候要遵循的逻辑是从大到小，从笼统到具体
+
+结构化程序
+
+基本特征
+
+程序又若干模块组成
+
+模块和之间 高内聚（一个模块只做一件事）
+
+模块之间低耦合（模块之间依赖程度低）
+
+排序待展开
+
+  
+
+C程序设计语言 是一门高级程序设计语言（低级语言是指机器语言）
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f94a01d-2835-4fb1-95c7-4ea0a8f6911f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9f94a01d-2835-4fb1-95c7-4ea0a8f6911f/Untitled.png)
+
+然后渐渐发展成 为了人能看懂
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e483d81-22da-45e5-beca-51a4682e7c30/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1e483d81-22da-45e5-beca-51a4682e7c30/Untitled.png)
+
+然后渐渐发展成高级语言
+
+这三张图对计算机来说是实现的是同样的功能
+
+![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c17bc96-deec-4cf6-8451-11d5e8d7e29c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c17bc96-deec-4cf6-8451-11d5e8d7e29c/Untitled.png)
+
+ 
+
+没有大胡子就编程不行。
+
+unix 俩人都是大胡子，用c编的unix
+
+重要！！！！！！！！！！！！！！！！
+
+尽管C99是99年通过的iso标准
+
+C11是11年通过的标准
+
+但是C语言的规范定义的非常宽泛
+
+经常导致
+
+相同的程序在不同的编译器上具有不同的解释，比如int 在turboC占16bits但在VC中占32bits。
+
+相同程序也可能在不同平台上运行结果不同，比如浮点数精度不同
+
+所以一定要注意编译环境！
+
+1979年，bjarne开发了新语言叫C with classes 后来演化成了C++
+
+最新标准是2011年iso通过了iso14882：2011
+
+C语言是C++的一个子集，我们要做的是在c++环境下先掌握c，再拓展掌握c++
+
+如何学习语法知识
+
+！！
+
+重点!任何语言都通用
+
+语言的种类千差万别，但我们要从四个基本成分了解
+
+- 数据成分，用以描述程序中设计的数据
+- 运算成分，用以描述程序中所包含的运算
+- 控制成分，用以表达程序中的控制构造
+- 传输成分，用以表达程序中的数据的传输
